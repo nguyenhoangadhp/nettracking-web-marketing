@@ -1,0 +1,50 @@
+// Hero
+.hero {
+    margin: 60px 0 100px 0;
+
+    &-wrap {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    &__heading {
+        width: 590px;
+    }
+
+    &__desc {
+        width: 464px;
+        margin-top: 16px;
+
+        &--bot {
+            width: 522px;
+        }
+    }
+
+    &-cta {
+        display: flex;
+        gap: 16px;
+        margin-top: 20px;
+        margin-bottom: 108px;
+
+        &__btn {
+            gap: 8px;
+        }
+    }
+
+    &-decor {
+        position: absolute;
+        top: 35%;
+        left: 15%;
+        z-index: -1;
+
+        width: 366px;
+        height: 366px;
+
+        border-radius: 366px;
+        background: rgba(255, 27, 0, 0.2);
+        filter: blur(250px);
+    }
+}

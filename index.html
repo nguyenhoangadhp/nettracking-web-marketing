@@ -14,12 +14,90 @@
 
         <!-- Fonts -->
         <link rel="stylesheet" href="./assets/fonts/stylesheet.css" />
+
+        <!-- Fontawesome -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+            integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="./assets/css/main.css" />
     </head>
     <body>
-        <h1>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto expedita dignissimos asperiores dolore nobis
-            repellat eveniet? Perferendis eveniet corrupti repudiandae blanditiis soluta id assumenda minus. Veniam
-            commodi fugit debitis aspernatur?
-        </h1>
+        <!-- Header -->
+        <div class="header">
+            <div class="container">
+                <div class="header-wrap">
+                    <!-- Toggle -->
+                    <div class="header-toggle">
+                        <a href="#!" class="header-toggle__link">Nettracking</a>
+                        <a href="#!" class="header-toggle-wrap">
+                            <img src="./assets/icons/toggle-dark.svg" alt="" class="header-toggle__icon" />
+                        </a>
+                    </div>
+
+                    <!-- Nav -->
+                    <div class="header-nav">
+                        <ul class="header-nav__list">
+                            <li class="header-nav__item">
+                                <a href="#!" class="header-nav__link header-nav__link--active">Features</a>
+                            </li>
+                            <li class="header-nav__item">
+                                <a href="#!" class="header-nav__link">Pricing</a>
+                            </li>
+                            <li class="header-nav__item">
+                                <a href="#!" class="header-nav__link">How it works</a>
+                            </li>
+                            <li class="header-nav__item">
+                                <a href="#!" class="header-nav__link">Knowledge base</a>
+                            </li>
+                            <li class="header-nav__item">
+                                <a href="#!" class="header-nav__link">FAQ</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Sign in/up -->
+
+                    <div class="header-sign">
+                        <button class="btn btn--sm btn--sm-primary">Sign in</button>
+                        <button class="btn btn--sm btn--sm-second">Sign up</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Hero -->
+        <div class="hero">
+            <div class="container">
+                <div class="hero-wrap">
+                    <h1 class="hero__heading heading--primary">Content marketing solution & idea of your business</h1>
+                    <p class="desc--primary hero__desc">
+                        Nettracking is a content marketing solution that tracks the effectiveness of your blog,
+                    </p>
+
+                    <div class="hero-cta">
+                        <button class="hero-cta__btn btn btn btn--md btn--md-orange">
+                            Explore Platform
+                            <img src="./assets/icons/arrow-right.svg" alt="" class="hero-cta__icon" />
+                        </button>
+                        <button class="btn btn btn--md btn--md-primary">Learn More</button>
+                    </div>
+
+                    <h2 class="heading--primary">Key features</h2>
+                    <p class="desc--primary hero__desc hero__desc--bot">
+                        NetTracking™ has quickly become the go-to content marketing solution for over 600 clients around
+                        the world
+                    </p>
+
+                    <!-- Circle decor -->
+                    <div class="hero-decor"></div>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
