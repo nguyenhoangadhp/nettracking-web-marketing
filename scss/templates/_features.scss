@@ -27,7 +27,6 @@
         display: flex;
         gap: 16px;
         margin-top: 20px;
-        margin-bottom: 108px;
 
         &__btn {
             gap: 8px;
@@ -46,5 +45,43 @@
         border-radius: 366px;
         background: rgba(255, 27, 0, 0.2);
         filter: blur(250px);
+    }
+}
+
+// features
+.features {
+    margin: 108px 0;
+
+    &-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    &__desc {
+        width: 522px;
+        margin-top: 16px;
+    }
+
+    &-list {
+        margin-top: 100px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 65px 110px;
+
+        background: var(--bg-features-color);
+        border-radius: 20px;
+        padding: 80px 100px;
+    }
+
+    &-item {
+        &__title {
+            margin-top: 26px;
+        }
+
+        &__desc {
+            margin-top: 10px;
+        }
     }
 }

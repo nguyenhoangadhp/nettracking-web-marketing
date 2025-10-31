@@ -28,6 +28,7 @@ body {
     --bg-color: #12141d;
     --toggle-bg-color: #2a2b33;
     --bg-button-primary-color: #1d1f29;
+    --bg-features-color: #1e2029;
 }
 
 button {
@@ -96,6 +97,14 @@ button {
     letter-spacing: -1.05px;
 }
 
+.heading--third {
+    color: var(--text-color);
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: -0.2px;
+    text-transform: capitalize;
+}
+
 .desc--primary {
     display: inline-block;
     color: var(--desc-color);
@@ -103,4 +112,12 @@ button {
     font-weight: 400;
     line-height: 140%;
     letter-spacing: -0.4px;
+}
+
+.desc--second {
+    color: var(--desc-color);
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: -0.32px;
 }

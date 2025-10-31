@@ -162,6 +162,7 @@ body {
   --bg-color: #12141d;
   --toggle-bg-color: #2a2b33;
   --bg-button-primary-color: #1d1f29;
+  --bg-features-color: #1e2029;
 }
 
 button {
@@ -220,6 +221,14 @@ button {
   letter-spacing: -1.05px;
 }
 
+.heading--third {
+  color: var(--text-color);
+  font-size: 2rem;
+  font-weight: 600;
+  letter-spacing: -0.2px;
+  text-transform: capitalize;
+}
+
 .desc--primary {
   display: inline-block;
   color: var(--desc-color);
@@ -227,6 +236,14 @@ button {
   font-weight: 400;
   line-height: 140%;
   letter-spacing: -0.4px;
+}
+
+.desc--second {
+  color: var(--desc-color);
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: -0.32px;
 }
 
 .row > *, .container-fluid, .container {
@@ -1344,7 +1361,6 @@ button {
   display: flex;
   gap: 16px;
   margin-top: 20px;
-  margin-bottom: 108px;
 }
 .hero-cta__btn {
   gap: 8px;
@@ -1359,6 +1375,35 @@ button {
   border-radius: 366px;
   background: rgba(255, 27, 0, 0.2);
   filter: blur(250px);
+}
+
+.features {
+  margin: 108px 0;
+}
+.features-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.features__desc {
+  width: 522px;
+  margin-top: 16px;
+}
+.features-list {
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 65px 110px;
+  background: var(--bg-features-color);
+  border-radius: 20px;
+  padding: 80px 100px;
+}
+.features-item__title {
+  margin-top: 26px;
+}
+.features-item__desc {
+  margin-top: 10px;
 }
 
 /*# sourceMappingURL=main.css.map */
