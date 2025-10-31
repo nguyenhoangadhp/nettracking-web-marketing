@@ -29,6 +29,8 @@ body {
     --toggle-bg-color: #2a2b33;
     --bg-button-primary-color: #1d1f29;
     --bg-features-color: #1e2029;
+    --bg-solutions-color: #1e2029;
+    --btn-solutions-color: #2a2c34;
 }
 
 button {
@@ -95,6 +97,16 @@ button {
     font-weight: 700;
     line-height: 109.524%;
     letter-spacing: -1.05px;
+}
+
+.heading--second {
+    display: inline-block;
+    color: var(--text-color);
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 120%;
+    letter-spacing: -0.3px;
+    text-transform: capitalize;
 }
 
 .heading--third {
